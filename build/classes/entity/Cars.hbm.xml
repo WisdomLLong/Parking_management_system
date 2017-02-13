@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-12-9 20:43:59 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="entity.Cars" table="CARS">
+        <id name="cid" type="java.lang.String">
+            <column name="CID" />
+            <generator class="assigned" />
+        </id>
+        <property name="cnum" type="java.lang.String">
+            <column name="CNUM" />
+        </property>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="cbrand" type="java.lang.String">
+            <column name="CBRAND" />
+        </property>
+        <property name="ctype" type="java.lang.String">
+            <column name="CTYPE" />
+        </property>
+        <property name="ctime" type="java.util.Date">
+            <column name="CTIME" />
+        </property>
+        <property name="outtime" type="java.util.Date">
+            <column name="OUTTIME" />
+        </property>
+        <property name="money" type="java.lang.String">
+            <column name="MONEY" />
+        </property>
+        <property name="worker" type="java.lang.String">
+            <column name="WORKER" />
+        </property>
+    </class>
+</hibernate-mapping>

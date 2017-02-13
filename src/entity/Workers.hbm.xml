@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-12-9 20:43:59 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="entity.Workers" table="WORKERS">
+        <id name="wid" type="int">
+            <column name="WID" />
+            <generator class="native" />
+        </id>
+        <property name="workername" type="java.lang.String">
+            <column name="WORKERNAME" />
+        </property>
+        <property name="workerintime" type="java.util.Date">
+            <column name="WORKERINTIME" />
+        </property>
+        <property name="workerouttime" type="java.util.Date">
+            <column name="WORKEROUTTIME" />
+        </property>
+    </class>
+</hibernate-mapping>

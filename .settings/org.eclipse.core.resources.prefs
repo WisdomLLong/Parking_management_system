@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/action/CarsAction.java=UTF-8
+encoding//src/action/StudentsAction.java=UTF-8
+encoding//src/service/StudentsDAO.java=UTF-8
+encoding//src/service/impl/StudentsDAOImpl.java=UTF-8
+encoding//test/service/impl/TestStudentsDAOImpl.java=UTF-8
